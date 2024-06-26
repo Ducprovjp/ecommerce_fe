@@ -1,0 +1,20 @@
+{
+  "extends": ["development"],
+  "hints": {
+    "axe/forms": [
+      "default",
+      {
+        "autocomplete-valid": "off",
+        "label": "off"
+      }
+    ],
+    "typescript-config/consistent-casing": "off",
+    "typescript-config/strict": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "button-name": "off"
+      }
+    ]
+  }
+}
